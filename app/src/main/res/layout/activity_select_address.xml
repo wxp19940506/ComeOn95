@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_select_address"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.comeon95.SelectAddressActivity">
+
+    <RelativeLayout
+        android:id="@+id/logintoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/homeback_color"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="8dp"
+            android:src="@mipmap/fanhui"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/selectaddress"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/textColor"/>
+
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/provinces_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/bag"
+        android:layout_below="@id/logintoolbar">
+
+    </ListView>
+    <ListView
+        android:id="@+id/cities_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/logintoolbar"
+        android:visibility="gone">
+
+    </ListView>
+    <ListView
+        android:id="@+id/districts_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/logintoolbar"
+        android:visibility="gone">
+
+    </ListView>
+
+</RelativeLayout>

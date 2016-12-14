@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/background"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:text="@string/yourloc"
+        android:textColor="@color/textColor2"/>
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:background="@color/homeback_color"
+        android:paddingLeft="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:paddingLeft="8dp"
+        android:text="@string/cityloc"
+        android:textColor="@color/textColor2"
+        android:gravity="bottom"
+        android:paddingBottom="5dp"
+        android:background="@color/background"/>
+
+</LinearLayout>

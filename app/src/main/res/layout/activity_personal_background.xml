@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_personal_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.comeon95.PersonalBackgroundActivity">
+    <RelativeLayout
+        android:id="@+id/logintoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/homeback_color"
+        android:gravity="center_vertical">
+        <ImageView
+            android:id="@+id/fanhui"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="8dp"
+            android:src="@mipmap/fanhui"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update_background"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/textColor"/>
+        <TextView
+            android:id="@+id/wancheng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wancheng"
+            android:textSize="15sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/text_red1"/>
+    </RelativeLayout>
+    <GridView
+        android:id="@+id/images_contains"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        >
+
+    </GridView>
+</LinearLayout>

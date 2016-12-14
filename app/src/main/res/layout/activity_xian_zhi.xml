@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_xian_zhi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.comeon95.XianZhiActivity">
+    <RelativeLayout
+        android:id="@+id/xianzhi"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@color/homeback_color"
+        >
+        <ImageView
+            android:id="@+id/discove_return"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/return_icon"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginRight="50dp"
+            android:layout_toRightOf="@id/discove_return"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="@string/xianzhi"
+            android:textSize="16sp"/>
+        <ImageView
+            android:id="@+id/xiaoxi1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:src="@mipmap/xiaoxi"/>
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/xianzhilistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/xianzhi">
+
+    </ListView>
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lai_bai_you_xuan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.comeon95.LaiBaiYouXuanActivity">
+
+    <RelativeLayout
+        android:id="@+id/aboutlb"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:background="@color/homeback_color"
+        >
+        <ImageView
+            android:id="@+id/about_return"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/return_icon"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginRight="80dp"
+            android:layout_toRightOf="@id/about_return"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="@string/youxuan_laibai"
+            android:textSize="16sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp">
+            <ImageView
+                android:id="@+id/xiaoxi3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="15dp"
+                android:src="@mipmap/message_icon"/>
+            <ImageView
+                android:id="@+id/share"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="12dp"
+                android:src="@mipmap/share2"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/youxuan_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>

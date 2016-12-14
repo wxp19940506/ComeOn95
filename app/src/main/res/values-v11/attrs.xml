@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="VerticalViewPager">
+        <attr name="child_layout_id" format="reference"/>
+        <attr name="childPaddingLeft" format="integer"/>
+        <attr name="childPaddingRight" format="integer"/>
+        <attr name="childPaddingBottom" format="integer"/>
+        <attr name="childPaddingTop" format="integer"/>
+        <attr name="childOffset" format="integer"/>
+    </declare-styleable>
+
+</resources>

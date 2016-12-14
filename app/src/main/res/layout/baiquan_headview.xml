@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_below="@id/baicircle"
+        android:layout_height="40dp"
+        app:tabSelectedTextColor="@color/red"
+        app:tabIndicatorColor="@color/red">
+
+    </android.support.design.widget.TabLayout>
+    <RelativeLayout
+        android:id="@+id/tuijianHead"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/tabs"
+        android:gravity="center"
+        android:background="@color/homeback_color"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/amenu_icon"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/mian_fragment_edit">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/search1"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

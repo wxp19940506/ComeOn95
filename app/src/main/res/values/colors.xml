@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="homeback_color">#fff</color>
+    <color name="bule_text">#33A6FF</color>
+    <color name="iconback_color">#7fff</color>
+    <color name="textColor">#000</color>
+    <color name="textColor1">#333</color>
+    <color name="textColor3">#FF8193</color>
+    <color name="textColor2">#999</color>
+    <color name="red">#f00</color>
+    <color name="background">#1000</color>
+    <color name="button_backgroung">#2000</color>
+    <color name="text_red">#ff4965</color>
+    <color name="text_red1">#FF4E90</color>
+    <color name="popup_background">#6000</color>
+    <color name="textColorhui">#A5A0A0</color>
+    <color name="textcolor3">#284C7F</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="bag1">#455982</color>
+    <color name="yello">#FEF4AD</color>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@color/background"
+    >
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/item_background"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_marginBottom="10dp">
+       <ImageView
+           android:id="@+id/image"
+           android:layout_width="90dp"
+           android:layout_height="90dp"
+           android:scaleType="fitXY"
+           android:layout_margin="10dp"
+           />
+       <LinearLayout
+           android:id="@+id/ll1"
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:layout_toRightOf="@id/image"
+           android:layout_alignParentRight="true"
+           android:orientation="vertical">
+           <TextView
+               android:id="@+id/title"
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="1"
+               android:gravity="center_vertical"
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="5dp"
+               android:text="父亲意外身亡，和残疾母亲相依为命的坚强男孩"
+               android:lines="2"/>
+           <TextView
+               android:id="@+id/titles"
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="1"
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="5dp"
+               android:layout_marginBottom="5dp"
+               android:gravity="center_vertical"
+               android:text="这位面带志气的男孩叫韩大运，今年七岁了，现读小学二年级"
+               android:lines="2"/>
+       </LinearLayout>
+
+   </RelativeLayout>
+
+
+
+
+</RelativeLayout>
